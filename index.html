@@ -113,7 +113,7 @@
         }
 
         .container {
-            width: 90%;
+            width: 100%;
             max-width: 1400px;
             margin: 0 auto;
             padding: 0 20px;
@@ -860,13 +860,17 @@
         .pulse-animation {
             animation: pulse 2s infinite;
         }
+        .header-buttons-container {
+            display: flex;
+            gap: 20px;
+        }
     </style>
 </head>
 <body>
     <!-- Header Premium -->
     <header class="premium-header">
         <div class="container header-container">
-            <a href="#" class="logo">AR</a>
+            <a href="#" class="logo">DRB</a>
             
             <nav>
                 <ul class="nav-links">
@@ -878,8 +882,10 @@
                 </ul>
             </nav>
             
-            <a href="#contacto" class="header-cta pulse-animation">Contrátame</a>
-            
+            <div class="header-buttons-container">
+                <a href="#contacto" class="header-cta pulse-animation">Contrátame</a>
+                <a href="/Curriculum_DRB.pdf" download="Curriculum_DRB.pdf" class="header-cta pulse-animation">Descargar CV</a>
+            </div>
             <button class="mobile-menu-btn">
                 <i class="fas fa-bars"></i>
             </button>
@@ -958,7 +964,7 @@
                 <!-- Proyecto 1 -->
                 <div class="project-card fade-in" data-category="web enterprise">
                     <div class="project-img-container">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="FinTech Platform" class="project-img">
+                        <img src="./image/image.png" alt="FinTech Platform" class="project-img">
                         <div class="project-overlay">
                             <a href="#" class="project-link" data-project="1">
                                 <i class="fas fa-external-link-alt"></i>
@@ -966,22 +972,21 @@
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>Plataforma FinTech</h3>
-                        <p>Sistema bancario completo con análisis predictivo, trading algorítmico y dashboard en tiempo real para una empresa Fortune 500.</p>
+                        <h3>Transporte AAS</h3>
+                        <p>Sistema web para mostrar servicios de transporte, con catálogo interactivo, visualización dinámica de productos logísticos y módulo informativo optimizado para clientes.
+                        </p>
                         <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">AWS</span>
-                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Proyecto 2 -->
+                <!-- Proyecto 2 
                 <div class="project-card fade-in" data-category="mobile ai">
                     <div class="project-img-container">
-                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="Health AI App" class="project-img">
+                        <img src="/image/" alt="Health AI App" class="project-img">
                         <div class="project-overlay">
                             <a href="#" class="project-link" data-project="2">
                                 <i class="fas fa-external-link-alt"></i>
@@ -989,22 +994,20 @@
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>Health AI Assistant</h3>
+                        <h3>LOGISTICA Y TRANSPORTE GR</h3>
                         <p>Aplicación móvil con diagnóstico asistido por IA, seguimiento de salud personalizado y integración con wearables.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">Flutter</span>
-                            <span class="tech-tag">TensorFlow</span>
-                            <span class="tech-tag">Firebase</span>
-                            <span class="tech-tag">GraphQL</span>
-                            <span class="tech-tag">Apple Health</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
                         </div>
                     </div>
                 </div>
-                
+                 -->
                 <!-- Proyecto 3 -->
                 <div class="project-card fade-in" data-category="web enterprise">
                     <div class="project-img-container">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1715&q=80" alt="Enterprise Dashboard" class="project-img">
+                        <img src="/image/image2.png" alt="Enterprise Dashboard" class="project-img">
                         <div class="project-overlay">
                             <a href="#" class="project-link" data-project="3">
                                 <i class="fas fa-external-link-alt"></i>
@@ -1012,14 +1015,12 @@
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>Enterprise Analytics Suite</h3>
-                        <p>Plataforma de business intelligence para análisis de datos masivos con visualizaciones interactivas y reporting automatizado.</p>
+                        <h3>LOGISTICA Y TRANSPORTE GR</h3>
+                        <p>Plataforma web para exhibir servicios de transporte, con interfaz intuitiva, presentación dinámica de soluciones logísticas y acceso rápido a información clave para clientes.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">Vue.js</span>
-                            <span class="tech-tag">D3.js</span>
-                            <span class="tech-tag">PostgreSQL</span>
-                            <span class="tech-tag">Redis</span>
-                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
                         </div>
                     </div>
                 </div>
@@ -1049,7 +1050,7 @@
                     <h3><i class="fas fa-palette"></i> Frontend</h3>
                     <div class="skill-item">
                         <div class="skill-header">
-                            <span>React / Next.js</span>
+                            <span>Angular / Next.js</span>
                             <span>98%</span>
                         </div>
                         <div class="skill-bar">
@@ -1058,20 +1059,20 @@
                     </div>
                     <div class="skill-item">
                         <div class="skill-header">
-                            <span>Vue.js / Nuxt.js</span>
-                            <span>92%</span>
+                            <span>React Nativo / Nuxt.js</span>
+                            <span>60%</span>
                         </div>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-width="92"></div>
+                            <div class="skill-progress" data-width="60"></div>
                         </div>
                     </div>
                     <div class="skill-item">
                         <div class="skill-header">
                             <span>TypeScript</span>
-                            <span>95%</span>
+                            <span>70%</span>
                         </div>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-width="95"></div>
+                            <div class="skill-progress" data-width="70"></div>
                         </div>
                     </div>
                 </div>
@@ -1114,28 +1115,28 @@
                     <div class="skill-item">
                         <div class="skill-header">
                             <span>AWS / GCP</span>
-                            <span>94%</span>
+                            <span>50%</span>
                         </div>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-width="94"></div>
+                            <div class="skill-progress" data-width="50"></div>
                         </div>
                     </div>
                     <div class="skill-item">
                         <div class="skill-header">
                             <span>Docker / Kubernetes</span>
-                            <span>92%</span>
+                            <span>50%</span>
                         </div>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-width="92"></div>
+                            <div class="skill-progress" data-width="50"></div>
                         </div>
                     </div>
                     <div class="skill-item">
                         <div class="skill-header">
                             <span>CI/CD Pipelines</span>
-                            <span>96%</span>
+                            <span>50%</span>
                         </div>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-width="96"></div>
+                            <div class="skill-progress" data-width="50"></div>
                         </div>
                     </div>
                 </div>
@@ -1148,21 +1149,15 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-about">
-                    <div class="footer-logo">AR</div>
+                    <div class="footer-logo">DRB</div>
                     <p>Desarrollo soluciones digitales de clase mundial para las empresas más innovadoras del planeta.</p>
                     
                     <div class="social-links">
-                        <a href="#" class="social-link">
+                        <a href="https://www.linkedin.com/in/diego-ram%C3%ADrez-bello-368514311/" class="social-link" target="_blank">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="#" class="social-link">
+                        <a href="https://github.com/Brdiegtr" class="social-link" target="_blank">
                             <i class="fab fa-github"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-dribbble"></i>
                         </a>
                     </div>
                 </div>
@@ -1176,7 +1171,7 @@
                             </div>
                             <div>
                                 <div style="color: var(--white); font-weight: 500;">Email</div>
-                                <div>alex@reyes.dev</div>
+                                <div>arria487@gmail.com</div>
                             </div>
                         </div>
                         
@@ -1186,7 +1181,7 @@
                             </div>
                             <div>
                                 <div style="color: var(--white); font-weight: 500;">Teléfono</div>
-                                <div>+34 612 345 678</div>
+                                <div>+52 7531535693</div>
                             </div>
                         </div>
                         
@@ -1196,16 +1191,11 @@
                             </div>
                             <div>
                                 <div style="color: var(--white); font-weight: 500;">Ubicación</div>
-                                <div>Madrid, España</div>
+                                <div>Mexico, Lázaro Cárdenas Michoacán</div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2023 Alejandro Reyes. Todos los derechos reservados.</p>
-                <p style="margin-top: 10px; font-size: 0.8rem;">Diseñado y desarrollado con <i class="fas fa-heart" style="color: #ff4757;"></i> por mí mismo.</p>
             </div>
         </div>
     </footer>
@@ -1229,11 +1219,12 @@
         // Datos de proyectos para el modal
         const projects = {
             1: {
-                title: "Plataforma FinTech - Sistema Bancario Completo",
-                description: "Desarrollo de una plataforma financiera integral para uno de los bancos más grandes de Europa. El sistema incluye:<br><br>• Análisis predictivo de riesgos crediticios con ML<br>• Trading algorítmico con ejecución en milisegundos<br>• Dashboard en tiempo real con WebSockets<br>• Sistema de seguridad bancaria nivel militar<br>• API REST para integraciones con terceros<br><br><strong>Impacto:</strong> Reducción del 40% en riesgos crediticios y aumento del 25% en eficiencia operativa.",
-                tech: ["React", "Node.js", "Python", "TensorFlow", "AWS", "Docker", "PostgreSQL", "Redis"],
-                img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                title: "Transporte AAS - Catálogo de Servicios",
+                description: "Plataforma diseñada para exhibir el catálogo de servicios de la empresa transportista. El sistema incluye:<br><br>• Rutas seguras que guían tus envíos hacia su destino, reflejando confiabilidad en cada trayecto.<br>• Aseguramiento: presentación clara de los estándares de seguridad y calidad que protegen cada carga.<br>• Logística eficiente: muestra cómo la empresa combina experiencia, control y precisión en cada operación.<br>• Seguridad: enfoque en prácticas que garantizan entregas confiables y respaldo total al cliente.<br>• Lealtad: servicios orientados a construir confianza y compromiso en cada envío.<br>• Rapidez: soluciones ágiles que demuestran la velocidad y eficiencia de la operación.<br><br><strong>Impacto:</strong> Mayor claridad para el cliente y fortalecimiento de la identidad profesional de la empresa.",
+                tech: ["HTML", "CSS", "JS"],
+                img: "./image/image.png"
             },
+
             2: {
                 title: "Health AI Assistant - Diagnóstico Asistido por IA",
                 description: "Aplicación móvil revolucionaria en el sector salud que utiliza inteligencia artificial para asistir en diagnósticos médicos:<br><br>• Análisis de síntomas con 94% de precisión<br>• Integración con wearables (Apple Watch, Fitbit)<br>• Historial médico personalizado y seguro<br>• Alertas de salud predictivas<br>• Chatbot médico 24/7<br><br><strong>Impacto:</strong> Utilizada por 500K+ usuarios, con detección temprana de condiciones en 15K+ casos.",
@@ -1241,11 +1232,12 @@
                 img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80"
             },
             3: {
-                title: "Enterprise Analytics Suite - Business Intelligence",
-                description: "Plataforma de business intelligence para corporaciones multinacionales que procesa petabytes de datos:<br><br>• Visualizaciones interactivas con D3.js<br>• Reporting automatizado y programable<br>• Análisis predictivo de tendencias de mercado<br>• Integración con 50+ fuentes de datos<br>• Tableros personalizados por departamento<br><br><strong>Impacto:</strong> Implementada en 12 empresas Fortune 500, con mejora del 35% en la toma de decisiones estratégicas.",
-                tech: ["Vue.js", "D3.js", "PostgreSQL", "Redis", "Kubernetes", "Apache Spark", "Python"],
-                img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1715&q=80"
-            }
+                title: "Logística y Transporte GR - Catálogo de Servicios",
+                description: "Plataforma para mostrar el catálogo de servicios y operaciones de Logística y Transporte GR, enfocada en presentar su oferta de transporte de carga y contenedores con claridad y profesionalismo. El sistema incluye:<br><br>• Presentación de rutas seguras y cobertura en 17 estados de México, demostrando compromiso y alcance del servicio.<br>• Sección de valores y misión que refleja responsabilidad, puntualidad y honestidad como pilares de la empresa.<br>• Listado de unidades y capacidades operativas que detallan la flota disponible y los tipos de transporte ofrecidos.<br>• Información accesible sobre medidas de seguridad y atención al cliente para mayor confianza.<br><br><strong>Impacto:</strong> Mejora en la visibilidad de los servicios ofrecidos, comunicación clara para clientes potenciales y fortalecimiento de la identidad profesional de la empresa.",
+                tech: ["HTML", "CSS", "JavaScript"],
+                img: "./image/image2.png"
+            },
+
         };
 
         // Inicialización cuando el DOM esté listo
